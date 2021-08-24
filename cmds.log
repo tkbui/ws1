@@ -1,13 +1,54 @@
-    1  passwd
-    2  ls
-    3  wget https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
-    4  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
-    5  ls
-    6  cd amazon_reviews_us_Books_v1_02.tsv.gz.1
-    7  tar -xvzf amazon_reviews_us_Books_v1_02.tsv.gz.1
-    8  ls
-    9  rm amazon_reviews_us_Books_v1_02.tsv.gz.1
-   10  ls
-   11  cd worksheets/
-   12  cd ws1/
-   13  history > cmds.log
+    1  ls
+    2  wget https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+    3  ls
+    4  mkdir worksheets
+    5  cd worksheets/
+    6  mkdir ws1
+    7  cd ws1/
+    8  git --version
+    9  git init
+   10  touch examplefile.txt
+   11  ls
+   12  git status
+   13  git remote add origin https://github.com/tkbui/ws1.git
+   14  history > cmds.log
+   15  ls
+   16  cat cmds.log 
+   17  git status
+   18  git add cmds.log
+   19  git status
+   20  git commit -m "Updated cmds.log on new server."
+   21  git config --global user.email "thuykhuongbui@gmail.com"
+   22  git config --global user.name "tkbui"
+   23  history > cmds.log
+   24  cat cmds.log 
+   25  git commit -m "Updated cmds.log on new server."
+   26  git push -u origin master
+   27  git pull origin master
+   28  ls
+   29  cat cmds.log 
+   30  git clone https://github.com/tkbui/ws1.git
+   31  ls
+   32  cd ..
+   33  git clone https://github.com/tkbui/ws1.git
+   34  rm -r ws1
+   35  cd ws1/
+   36  rm -r ws1
+   37  ls
+   38  rm -r /ws1
+   39  ls
+   40  rm -r ws1/
+   41  y
+   42  yls
+   43  ls
+   44  cd ..
+   45  ls
+   46  rm ws1/
+   47  rm -r ws1/
+   48  ls
+   49  git clone https://github.com/tkbui/ws1.git
+   50  ls
+   51  cd ws1/
+   52  ls
+   53  touch examplefile.txt
+   54  history > cmds.log
